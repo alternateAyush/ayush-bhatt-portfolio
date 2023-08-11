@@ -22,12 +22,12 @@ const ProfileSection=()=>{
                 <p className='my-5 text-lg md:text-2xl'>
                     {`I'm a `}
                     <span className='text-teal-600 font-semibold'>{`student `}</span>
-                    {`at Vellore Institute of technology, Bhopal currently pursuing my bachelor's degree in `}
-                    <span className='text-teal-600 font-semibold'>{`Computer Science and Technology`}</span>{`.`}
+                    {`at Vellore Institute of Technology, Bhopal currently pursuing my bachelor's degree in `}
+                    <span className='text-teal-600 font-semibold'>{`Computer Science and Engineering`}</span>{`.`}
                 </p>
                 <Link 
                 to='projects'
-                className='text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 cursor-pointer'
+                className='select-none text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 cursor-pointer'
                 activeClass='active'
                 spy={true}
                 smooth={true}
