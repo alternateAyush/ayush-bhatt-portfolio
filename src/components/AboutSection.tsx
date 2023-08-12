@@ -21,7 +21,7 @@ const skills = [
 
 const AboutSection = ()=>{
     return <section id="about">
-        <div className="my-12 pb-12 md:pt-16 md:pb-48">
+        <div className="my-12 pb-12 md:pt-16 md:pb-36">
             <h1 className="text-center font-bold text-4xl">
                 About Me
                 <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
@@ -58,9 +58,9 @@ const AboutSection = ()=>{
                                     >{item.skill}</p>
                         })}
                     </div>
-                    <div className='hidden md:relative w-60 h-60 md:block md:bottom-4 md:left-60 md:z-0'>
+                    <div className='hidden w-52 h-60 md:block md:relative md:bottom-4 md:left-60 md:z-0'>
                         <Image 
-                        className="object-contain"
+                        className="object-fill"
                         src="/about-image.png" 
                         alt="man-waving-hi" 
                         fill/>

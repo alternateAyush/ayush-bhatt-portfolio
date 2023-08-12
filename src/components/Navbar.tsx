@@ -28,7 +28,8 @@ const NAV_ITEMS:Array<NavItem> = [
 
 const Navbar = ()=>{
     const {systemTheme,theme,setTheme} = useTheme();
-    const currentTheme = (theme==="system")? systemTheme:theme;
+    // const currentTheme = (theme==="system")? systemTheme:theme;
+    const currentTheme = "light";
     const [navbar,setNavBar] = useState(false);
     return (
         <header className="w-full mx-auto px-4 bg-white border shadow fixed top-0 z-50 sm:px-10">
@@ -59,9 +60,9 @@ const Navbar = ()=>{
                                          onClick={()=>{setNavBar(!navbar)}}>{navItem.label}</Link>
                             })}
                             {
-                                (currentTheme==="dark")?
-                                <button onClick={()=>setTheme("light")} className='bg-slate-100 rounded-xl p-2'><RiSunLine/></button>:
-                                <button onClick={()=>setTheme("dark")} className='bg-slate-100 rounded-xl p-2'><RiMoonFill/></button>
+                                (currentTheme==="light")?
+                                <button onClick={()=>setTheme("dark")} className='bg-slate-100 rounded-xl p-2'><RiMoonFill/></button>:
+                                <button onClick={()=>setTheme("light")} className='bg-slate-100 rounded-xl p-2'><RiSunLine/></button>
                             }
                         </div>
                     </div>  

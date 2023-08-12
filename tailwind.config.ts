@@ -14,13 +14,24 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       animation:{
-        bounce:"bounce 0.5s alternate cubic-bezier(0.95,0.05,0.795,0.035) infinite"
+        bounce:"bounce 0.5s alternate cubic-bezier(0.95,0.05,0.795,0.035) infinite",
+        slideUpCubiBezier:"slideUp 1s cubic-bezier(0.165,0.84,0.44,1)"
+      },
+      animationDelay: {
+        0: "0s",
+        2: "0.2s",
+        4: "0.4s",
+        6: "0.6s",
       },
       keyframes:{
         bounce:{
           from:{transform:"translateY(10px)"},
           to:{transform:"translateY(0px)"}
-        }
+        },
+        slideUp:{
+          from:{transform:"translateY(100%)"},
+          to:{transform:"translateY(0)"}
+        }  
       }
     },
   },
