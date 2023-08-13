@@ -56,7 +56,7 @@ const ProjectsSection=()=>{
                                 <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">{project.description}</p>
                                 <div className="flex flex-row align-bottom space-x-4">
                                     <Link href={project.github} target="_blank">
-                                        <BsGithub size={30} className="hover:-translate-y-1 transiton-transform pointer:cursor"/>
+                                        <BsGithub size={30} className="hover:-translate-y-1 transiton-transform cursor-pointer"/>
                                     </Link>
                                     <Link href={project.link} target="_blank">
                                         <BsArrowUpRightSquare size={30} className="hover:-translate-y-1 transiton-transform pointer:cursor"/>

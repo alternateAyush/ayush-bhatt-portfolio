@@ -37,7 +37,8 @@ const Navbar = ()=>{
                 <div>
                     <div className='flex justify-between items-center'>
                         <div className='md:py-5 md:block'>
-                            <h2 className='text-2xl font-bold '>Ayush Bhatt</h2>
+                            <Link to="home"><h2 className='text-2xl font-bold '>Ayush Bhatt</h2></Link>
+                            
                         </div>
                         <div className='md:hidden'>
                             <button onClick={()=>{setNavBar(!navbar)}}>{(navbar)? <IoMdClose size={30}/>:<IoMdMenu size={30}/>}</button>
