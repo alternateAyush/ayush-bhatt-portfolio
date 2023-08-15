@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const skills = [
     {skill:"C++"},
@@ -8,6 +9,7 @@ const skills = [
     {skill:"OOPs Concepts"},
     {skill:"DBMS"},
     {skill:"SQL"},
+    {skill:"AWS Cloud Practitioner"},
     {skill:"HTML"},
     {skill:"CSS"},
     {skill:"Tailwind CSS"},
@@ -37,7 +39,7 @@ const AboutSection = ()=>{
                     <br/>
                     <p>{`Beyond the world of coding and academics, I find solace in the realm of cinema. As `}<span className="text-teal-500 font-semibold">an ardent cinephile</span>{`, I am drawn to intricate narratives and the art of character portrayal. Engaging in discussions about the profound theories that underpin complex stories is a hobby that never fails to captivate me.`}</p>
                     <br/>
-                    <p>{`Thank you for visiting my portfolio. Join me as I continue to evolve as a developer, merging technology with creativity to build immersive digital experiences. If you're as passionate about innovation and collaboration as I am, I'd love to connect and explore how we can make a meaningful impact together.`}</p>
+                    <p>{`Thank you for visiting my portfolio. `}<Link href="https://www.linkedin.com/in/ayush-bhatt-036b2b203/" target="_blank"><span className="text-teal-500 font-semibold">Join me</span></Link>{` as I continue to evolve as a developer, merging technology with creativity to build immersive digital experiences. If you're as passionate about innovation and collaboration as I am, I'd love to connect and explore how we can make a meaningful impact together.`}</p>
                 </div>
                 <div className="md:w-2/5 relative">
                     <h1 className="text-center font-bold text-2xl mb-6 md:text-left">My Skills</h1>
