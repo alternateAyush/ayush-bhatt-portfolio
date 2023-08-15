@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import {AiOutlineGithub,AiOutlineLinkedin} from 'react-icons/ai';
+import {SiLeetcode} from 'react-icons/si';
 
 const Footer=()=>{
     return (
@@ -12,6 +13,9 @@ const Footer=()=>{
             <div className="flex flex-row justify-center items-center space-x-2 mb-2">
                 <Link href="https://github.com/alternateAyush" rel="noreferrer" target="_blank">
                     <AiOutlineGithub size={30} className="hover:-translate-y-1 transition-transform cursor-pointer"/>
+                </Link>
+                <Link href="https://leetcode.com/Ayush0706/" rel="noreferrer" target="_blank">
+                    <SiLeetcode size={30} className="hover:-translate-y-1 transition-transform cursor-pointer"/>
                 </Link>
                 <Link href="https://www.linkedin.com/in/ayush-bhatt-036b2b203/" rel="noreferrer" target="_blank">
                     <AiOutlineLinkedin size={30} className="hover:-translate-y-1 transition-transform cursor-pointer"/>
