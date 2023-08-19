@@ -20,9 +20,9 @@ const projects = [
         link:"https://my-algo-visualizer.vercel.app/",
     },
     {
-        title:"Find-My-App",
+        title:"Find-My-Recipe",
         description:"One stop to find find all your favorite recipies with their nutrition info, search recipes by cuisine, calories, meal and many more filters.",
-        image:"/find-my-recipe-img.png",
+        image:"/find-my-recipe.png",
         github:"https://github.com/alternateAyush/find-my-recipe.git",
         link:"https://find-my-recipe-oxj9.vercel.app/",
     },
