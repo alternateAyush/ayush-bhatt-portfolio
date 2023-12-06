@@ -13,11 +13,11 @@ const projects = [
         link:"https://my-algo-visualizer.vercel.app/",
     },
     {
-        title:"SocialX",
-        description:"A social media platform to connect with your family and friends. Post, comment and update your profile.",
+        title:"LibraryCafe",
+        description:"The Library API provides essential book management functionalities. Users can seamlessly post details of new books, including title, synopsis, author, price, publish date, genre list, and availability, directly into the database. Additionally, the API enables users to retrieve books based on title or author name, perform searches, and sort books by title or price.",
         image:"/placeholder-image.png",
-        github:"https://github.com/alternateAyush/SocialX-Website.git",
-        link:"https://my-algo-visualizer.vercel.app/",
+        github:"https://github.com/alternateAyush/Library-API",
+        link:"https://library-api-v1.onrender.com/",
     },
     {
         title:"Find-My-Recipe",
