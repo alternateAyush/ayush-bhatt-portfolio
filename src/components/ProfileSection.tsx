@@ -10,7 +10,7 @@ const ProfileSection=()=>{
             <div className='md:w-1/2 md:mt-2'>
                 <div className='relative w-72 h-72'>
                     <Image
-                        src="/profile_replace.jpg"
+                        src="/ayush.png"
                         alt="profile"
                         fill
                         className='object-cover rounded-full shadow-2xl'
